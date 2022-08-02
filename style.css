@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+:root{
+    --primary:#ef4040;
+    --secondary:#ffffff;
+    --third:#111111;
+    --fourth:#1e1e1e;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    background-color: var(--third);
+}
+
+/* NavigationBar */
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 70px;
+}
+
+.nav-logo>a>img{
+    height: 32px;
+}
+
+.nav-list>ul{
+    display: flex ;
+}
+
+.nav-list{
+    position: relative;
+    right: 20px;
+}
+
+.list-item{
+    color: var(--secondary);
+    list-style: none;
+    width: 91px;
+}
+
+.list-item>a{
+    text-decoration: none;
+    color: var(--secondary);
+    font-size: 13px;
+}
+
+
+.list-item>img{
+    height: 12px;
+}
+
+
+/* top-banner */
+
+.top-content{
+    display: flex;
+    color: var(--secondary);
+    margin: 0px 87px;
+}
+
+.man-image{
+    height: 549px;
+}
+
+.top-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.top-heading>h6{
+    font-weight: 600;
+    font-size: 21px;
+    color: var(--primary);
+    margin: 0px 0px;
+}
+
+.top-heading>h1{
+    font-size: 70px;
+    font-weight: 600;
+    margin: 0px 0px;
+}
+
+.top-heading>p{
+    font-size: 18px;
+    font-weight: 100;
+    margin: 0px 0px;
+}
+
+.top-heading>button{
+    margin: 20px 0px;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--secondary);
+    background: var(--primary);
+    padding: 14px 32px;
+}
+
+
+/* Information Section */
+
+.info-content{
+    width: 100%;
+    min-height: 50vh;
+    background: linear-gradient(
+      to right,
+      var(--fourth) 0%,
+      var(--fourth) 50%,
+      var(--third) 50%,
+      var(--third) 100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    margin: 100px 0px;
+}
+
+.card{
+    background: #292929;
+    color: var(--secondary);
+    display: flex;
+    flex-direction: column;
+    width: 242px;
+    padding: 4px 38px 1px 46px;
+    margin: 0px 20px;
+}
+
+
+.card-logo{
+    height: 67px;
+    width: 70px;
+}
+
+.card-active{
+    background: var(--primary);
+    color: var(--secondary);
+    display: flex;
+    flex-direction: column;
+    padding: 17px 51px 1px 47px;
+
+}
+
+.card-logo-active{
+    height: 44px;
+    width: 70px;
+}
+
+.card-head{
+    font-size: 25px;
+}
+
+.card-body{
+    font-size: 19px;
+}
+
+
+.card-body+h6{
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.card-body-active{
+    width: 14rem;
+    font-size: 19px;
+}
+
+.card-body-active+h6{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.card-body+h6>img{
+    width: 11px;
+}
+
+.card-body-active+h6>img{
+    width: 11px;
+}
+
+
+.achievement{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 70px;
+    justify-content: center;
+}
+
+.val-exp{
+    font-size: 90px;
+    color: var(--primary);
+    margin-top: 0px ;
+    margin-bottom: 0px ;
+}
+
+.val{
+    font-size: 62px;
+    margin: 0px 0px;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.det-val{
+    margin: 0px 0px;
+    color: var(--secondary);
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.experience-year{
+    font-size: 24px;
+    color: var(--secondary);
+    margin: 0px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+}
+
+.details1{
+    display: flex;
+    
+    justify-content: center;
+    
+}
+
+.client , .years, .completedProj, .Achiev{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: #292929;
+    
+}
+
+.client, .completedProj{
+    margin-right: 20px;
+    width: 300px;
+}
+
+.years{
+    width: 300px;
+}
+
+.details2{
+    display: flex;
+    margin-top: 20px;
+}
+
+.Achiev{
+    width: 300px;
+}
+
+/* FEATURED  PROJECTS SECTION */
+
+
+
+.fp-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 217px;
+    align-items: center;
+}
+
+.heading>h1{
+    color: var(--secondary);
+}
+
+.heading>p{
+    color: #b7b6b6;
+}
+
+.btn{
+    height: 44px;
+    padding: 3px 26px;
+    background: var(--primary);
+    color: var(--secondary);
+    border: none;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px 230px;
+}
+
+.project-img{
+    height: 200px;
+    height: 214px;
+    background: #292929;
+    padding: 47px 27px;
+}
+
+.p2{
+    height: 213px;
+    margin-left: 0px;
+    width: 377px;
+}
+
+.tre{
+    width: 376px;
+}
+
+.pro-head{
+        color: var(--secondary);
+        font-size: 26px;
+        margin: 10px 0px;
+}
+
+
+.pro h6{
+    font-size: 17px;
+    color: var(--primary);
+    font-weight: 600;
+    margin-top: -8px;
+}
+
+.pro h6>img{
+    height: 14px;
+}
+
+/* Bottom SECTION */
+
+.bottom-section{
+    display: flex;
+    background-color: #292929;
+    margin: 88px 160px;
+    padding: 58px 30px;
+    align-items: center;
+}
+
+.bs-content>h1{
+    color: var(--secondary);
+    font-size: 53px;
+    font-weight: 600;
+    margin: 0px 0px;
+    width: 45rem;
+    margin-right: 80px;
+}
+
+
+.bs-content>p{
+    font-size: 17px;
+    color: #a1a1a1;
+    width: 38rem;
+    margin: 11px 0px;
+}
+
+
+.btn-bottom{
+    height: 55px;
+    background: var(--primary);
+    color: var(--secondary);
+    border: none;
+    padding: 0px 30px;
+    font-size: 16px;
+}
+
+/* Bottom Navigation */
+
+
+.bottom-nav>ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    color: var(--secondary);
+}
+
+.bt-navList{
+    margin: 10px 20px;
+}
+
+/* Footer Section */
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    background: #292929;
+}
+
+.footer-logo{
+    display: flex;
+    position: relative;
+    right: 364px;
+}
+
+.footer-logo>a>img{
+    height: 32px;
+}
+
+
+.footer-social>a>img{
+    height: 20px;
+    margin: 0px 20px;
+}
+
+.footer-social{
+    display: flex;
+    position: relative;
+    right: 50px;
+}
