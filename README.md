@@ -8,6 +8,7 @@
 - How to  change color in SVG file image 
 - Navigation_bar Positioning
 - adjust size of any image and text
+- using media query for mobile responsiveness
 
 
 >### Time Required to Complete This Project
